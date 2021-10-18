@@ -1,0 +1,18 @@
+export const GOOGLE_SIGNEDIN = "GOOGLE_SIGNEDIN";
+export const GOOGLE_SIGNEDOUT = "GOOGLE_SIGNEDOUT";
+export const AUTH_BUTTON = "AUTH_BUTTON";
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+export const USER_REGISTER = "USER_REGISTER";
+export const NO_TOKEN = "NO_TOKEN";
+export const JWTAUTH_FAIL = "JWTAUTH_FAIL";
+export const JWTAUTH_SUCCESS = "JWTAUTH_SUCCESS";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const ROOM_CREATE_FAIL = "ROOM_CREATE_FAIL";
+export const CURRENT_CHAT = "CURRENT_CHAT";
+export const MYCHAT_LIST = "MYCHAT_LIST";
+export const CURRENT_CHAT_STORE = "CURRENT_CHAT_STORE";
+export const SOCKET_STATUS = "SOCKET_STATUS";
+export const SOCKET_MESSAGE = "SOCKET_MESSAGE";
+export const SOCKET_ERROR = "SOCKET_ERROR";
+

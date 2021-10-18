@@ -1,0 +1,221 @@
+
+
+ /* grid */
+ .myroomlist_grid-container {
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  height: 89vh;
+  color: var(--chattext);
+}
+
+.myroomlist_grid-container i{
+    color: var(--chattext);
+}
+/* myroomlist */
+.myroomlist {
+border:0.1px solid skyblue;
+
+
+}
+
+.myroomlist div{
+    width: 100%;
+    background-color: var(--chat);
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    border-bottom:0.1px solid skyblue;
+    
+}   
+
+.myroomlist ul{
+    list-style: none;
+    border-top: 2px double rgb(184, 184, 184);
+     overflow-y: scroll;
+     height: 77vh;
+     background-color:  rgb(241, 241, 241);
+}
+
+
+.myroomlist li{
+     width: 100%;
+     height: 60px;
+    padding: 20px;
+    text-align: left;
+    background-color:  rgb(238, 238, 238);
+    border-bottom: 0.1px solid rgb(184, 184, 184);
+   
+}
+.fa-trash-alt{
+    float: right;
+    cursor: pointer;
+    
+}
+.fa-trash-alt:hover{
+    color: var(--blue);
+}
+.fa-users {
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: -15px;
+}
+
+.myroomlist li:hover{
+    background-color: rgb(211, 232, 241);
+}
+
+.Notify{
+    float: right;
+    margin-left: 4%;
+    padding: 1% 2%;
+    border-radius: 70px;
+    border: 1px solid var(--blue);
+    font-size: 80%;
+    background-color: var(--blue);
+    color: white;
+}
+
+/* mychat */
+
+.mychat {
+border:0.1px solid skyblue;
+
+}
+.mychat-header{
+     width: 100%;
+    background-color: var(--chat);
+    height: 60px;
+    padding: 20px;
+    text-align: left;
+    border-bottom:0.1px solid skyblue;
+    position: relative;
+}
+.mychat-header p{
+    position: absolute;
+    font-size: 80%;
+    color: rgb(126, 126, 126);
+    width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    left: 75px;
+}
+.mychat-header p span{
+   
+    font-size: 100%;
+    border: 1px solid rgb(49, 196, 49);
+    border-radius: 10px;
+    padding: 0px 4px;
+    background-color: rgb(49, 196, 49);
+    color: white;
+    margin-right: 5px;
+}
+
+.mychat-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--chat);
+    height: 60px;
+    padding: 20px ;
+}
+.mychat-footer input{
+    width: 60%;
+    padding: 8px 20px;
+    margin-top: -10px;
+    border: 1px solid skyblue;
+    border-radius: 25px;
+
+}
+
+.mychat-footer input:focus{
+   outline: none;
+    border: 2px solid var(--blue);
+    
+    
+}
+.fa-paper-plane{
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* mychat-body */
+
+
+.mychat-body ul{
+    list-style: none;
+     overflow-y: scroll;
+     height:68vh;
+     background-color: rgb(248, 248, 248);
+}
+
+.mychat-body-pos{
+    border: 0.1px solid rgb(184, 184, 184);
+    padding: 0.5%;
+    border-radius: 5px;
+    width: 60%;
+    margin: 1% 1% ;
+}
+.mychat-body-pos img{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    margin-bottom: -3px;
+}
+.mychat-body-pos b{
+    font-size: 80%;
+    
+}
+.mychat-body-pos p{
+   padding: 3px;
+    
+}
+
+
+
+
+.date-format {
+    float: right;
+    color: grey;
+    font-size: 70%;
+}
+
+.mychat-body-text{
+   font-size: 80%;
+   padding: 3px;
+    
+}
+.right{
+    float: right;
+     background-color: rgb(228, 240, 245);
+   
+}
+
+.left{
+    float: left;
+   background-color: rgb(228, 228, 228);
+   
+}
+
+
+
+/* +++++++++++++++++++++ MEDIA +++++++++++++++++ */
+@media only screen and (max-width:1000px){
+  
+.mychat-header p{
+    
+    width: 400px;
+   
+}
+
+}
+
+/* +++++++++++++++++++++ MEDIA +++++++++++++++++ */
+@media only screen and (max-width:600px){
+  
+.mychat-header p{
+    
+    width: 250px;
+   
+}
+
+}
